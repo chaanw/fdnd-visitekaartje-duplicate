@@ -10,7 +10,7 @@ body {
   display:flex;
   justify-content:center;
   align-items:center;
-  color:#10214e;
+  color:#ffffff;
 }
 
 article {
@@ -21,8 +21,8 @@ article {
   flex-direction:column;
   align-items:center;
   justify-content:flex-end;
-  background: rgb(0,239,255);
-  background: linear-gradient(0deg, rgba(0,239,255,1) 40%, #4e54c8 100%);
+  background: rgb(0, 0, 0);
+  background: linear-gradient(0deg, rgb(59, 59, 59) 40%, #0f0f0f 100%);
   box-shadow:0 0 20px 20px rgba(0,0,0,.1);
   border-radius:1rem;
   position: relative;
@@ -39,7 +39,7 @@ header {
 }
 h1 {
   margin:2rem 0 1rem;
-  color: rgba(0,239,255,1);
+  color: rgb(221, 0, 147);
 }
 button {
   border:none;
@@ -49,21 +49,21 @@ button {
   width:2.5rem;
   height:2.5rem;
   transform: scale(.8);
-  background: rgba(0,239,255,1);
+  background: rgb(221, 0, 147);
   border-radius:50%;
   padding:.25rem;
   transition:.25s;
 }
 button:focus {
   outline:none;
-  background:#202592;
+  background:rgba(25, 0, 255, 0.5);
 }
 button:focus svg {
-  stroke: rgba(0,239,255,1);
+  stroke: rgb(255, 255, 255);
 }
 
 svg {
-  stroke: #4e54c8;
+  stroke: #ffffff;
   position: absolute;
   top:calc(1.25rem - 12px);
   left:calc(1.25rem - 12px);
@@ -87,7 +87,8 @@ img {
 }
 dl {
   width:100%;
-  background: rgb(255,255,255);
+  background: rgb(255, 255, 255);
+  background: linear-gradient(0deg, rgb(202, 0, 118) 40%, #6b00b3 100%);
   
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -128,7 +129,7 @@ p {
 article > p {
   padding:3rem 2rem;
   margin-top: 0;
-  background:rgba(255,255,255, 0.5);
+  background:rgba(25, 0, 255, 0.5);
   text-align:center;
   border-radius: 0 0 1rem 1rem;
   width:100%;
